@@ -4,9 +4,13 @@ Full Ubuntu setup for Analog and Digital design
 Just run in your terminal
 
 ```
+cd install_sky130_dev_tools_setup
 chmod +x install_sky130_dev_tools.sh
 ./install_sky130_dev_tools.sh
 ```
+
+Everything is installed inside the folder <em>**home/tools**</em>.
+
 # Tools to install
 
 - [CMake](https://github.com/Kitware/CMake)
