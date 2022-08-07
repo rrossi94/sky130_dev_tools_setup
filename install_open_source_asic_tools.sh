@@ -123,6 +123,29 @@ rm magic-8.3.50.tgz
 
 echo
 echo "=================================="
+echo "-----INSTALLING NGSpice-----------"
+echo "=================================="
+echo
+sudo wget "https://sourceforge.net/projects/ngspice/files/ngspice-37.tar.gz"
+tar -xvzf ngspice-37.tar.gz
+cd ngspice-37
+mkdir release
+cd release
+../configure  --with-x --with-readline=yes --disable-debug
+make
+sudo make install
+cd ../../
+rm -rf ngspice-37.tar.gz
+
+echo
+echo "=================================="
+echo "-----INSTALLING GTKWAVE-----------"
+echo "=================================="
+echo
+sudo apt-get install gtkwave
+
+echo
+echo "=================================="
 echo "-----INSTALLING Netgen------------"
 echo "=================================="
 echo
