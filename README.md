@@ -22,6 +22,9 @@ Everything is installed inside the folder <em>**home/tools**</em>.
 - [Qflow](http://opencircuitdesign.com/qflow)
 - [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA)
 - [Xschem](https://github.com/StefanSchippers/xschem)
+    - [xschem_130](https://github.com/StefanSchippers/xschem_sky130)
+- [NGSpice](https://github.com/ngspice/ngspice)    
+- [GTKWave](https://github.com/gtkwave/gtkwave)  
 - [Docker](https://www.docker.com)
 - [OpenLane](https://github.com/efabless/openlane)
 
