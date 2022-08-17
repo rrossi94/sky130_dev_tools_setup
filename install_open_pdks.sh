@@ -30,13 +30,8 @@ echo "=================================="
 echo
 git clone https://github.com/RTimothyEdwards/open_pdks.git
 cd open_pdks
-mkdir -p $HOME/tools/pdks/skywater130
-./configure --enable-sky130-pdk=$HOME/tools/pdks/skywater-pdk --with-sky130-local-path=$HOME/tools/pdks --with-ef-style
-cd sky130
-mkdir -p sky130A 
-mkdir -p sky130B
-make
-sudo make install
+./configure --enable-sky130-pdk=$HOME/tools/pdks/skywater-pdk --with-ef-style
+make && sudo make install
 
 # This will download and install the SkyWater SKY130 PDK, the SKY130 setup
 #     files for xschem, and a third-party library containing alphanumeric layouts.
